@@ -57,3 +57,9 @@ function drop(e) {
     // display the draggable element
     draggable.classList.remove('hidden');
 }
+
+
+function handleReset(){
+   
+    location.reload();
+}

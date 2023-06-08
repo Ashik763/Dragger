@@ -105,6 +105,16 @@ body{
 .hidden{
     display:none;
 }
+
+button{
+    background-color: orange;
+    width: 100%;
+    height:40px;
+    margin:10px 0px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}
 @media screen and (max-width:1024px){
     .container{
         /* border:1px solid red; */
