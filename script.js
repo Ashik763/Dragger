@@ -56,6 +56,7 @@ function drop(e) {
 
     // display the draggable element
     draggable.classList.remove('hidden');
+    alert("Successfully dragged")
 }
 
 
@@ -63,3 +64,5 @@ function handleReset(){
    
     location.reload();
 }
+
+

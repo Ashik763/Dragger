@@ -66,6 +66,7 @@ body{
     padding:10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -115,6 +116,8 @@ button{
     font-size: 20px;
     cursor: pointer;
 }
+
+
 @media screen and (max-width:1024px){
     .container{
         /* border:1px solid red; */
@@ -132,14 +135,18 @@ button{
         width: 95%;
         /* position:fixed; */
     }
-    /* .right-content{
-        color:red;
-        position: fixed;
-    } */
+    .img-container{
+        /* border:2px solid green; */
+       
+    }
+    button{
+       margin-bottom: 50px;
+    }
 
     .left-img{
         /* border: 1px solid red; */
         width: 80% ;
+        
     
     }
     
